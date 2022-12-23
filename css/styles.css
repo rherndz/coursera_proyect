@@ -16,7 +16,7 @@
     background-color: var(--color-secundario);
 }
 
-/*Header Logo */
+/*Header Logo name */
 #header-nav{
     background-color: var(--color-principal);
     border-radius: 0;
@@ -58,22 +58,21 @@
 .navbar__subtitle{
     vertical-align: middle;
 }
-.navbar__subtitle { 
-    vertical-align: middle;
-}
+
 
 /* Header Navigation */
 #nav__list{
-    margin-top: 4px;
+    margin-top: 10px;
+}
+
+.nav-link{
+    color: #951C49;
+    text-align: center;
 }
 .nav-link:hover {
     background: #E7E7E7;
 }
-.nav-link{
-    color: #951C49;
-    text-align: center;
-    margin: .9em;
-}
+
 .nav-icon{
     font-size: 1.2em;
     font-weight: bolder;
@@ -82,7 +81,6 @@
 
 /* Header navegation -  Call */
 .nav-link-phone{
-    font-size: px;
     font-weight: bolder;
     text-align: right;
     color: var(--color-secundario);
@@ -93,10 +91,10 @@
     font-weight: bold;
     padding-right: 15px;
 }
-.navbar-toggle{
-    border: 10px solid #61122f;
+.navbar-header button .navbar-toggle{
+    border: 1px solid #61122f;
 }
-.navbar-toggle span{
+.navbar-header button .navbar-toggle{
     clear: both;
     margin-top: -60px;
 }

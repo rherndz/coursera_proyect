@@ -15,14 +15,14 @@
     <!--Section Header-navbar-->
     <header>
 
-        <nav class="navbar navbar-expand-md" id="header-nav">
+        <nav class="navbar navbar-expand-lg" id="header-nav">
             <!-- Section - Container -->
             <div class="container">
 
                 <!-- Section navbar -->
-                <div class="navbar navbar-expand-lg">
+                <div class="navbar navbar-header">
 
-                    <a class="float-start d-none d-md-none d-lg-flex" href="index.html">
+                    <a class="float-start d-lg-block d-md-none d-sm-none d-none" href="index.html">
                         <div id="logo-img"></div>
                     </a>
     
@@ -33,15 +33,15 @@
                     </div>
 
                     <div>
-                        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar" aria-expanded="false">
+                        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#collapsable-nav" aria-expanded="false">
                             <span class="navbar-toggler-icon"></span>
                         </button>
                     </div>
                 </div>
 
                 <!-- Section navbar-Collapse -->
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul id="nav__list" class="navbar-nav d-inline-flex">
+                <div class="collapse navbar-collapse" id="collapsable-nav">
+                    <ul id="nav__list" class="nav navbar-nav align-content-center">
 
                         <li class="d-sm-block d-md-none d-lg-none active">
                             <a class="nav-link" href="index.html">
@@ -70,7 +70,7 @@
                         </a>
                       </li> 
 
-                      <li class="d-lg-block d-md-block d-none" id="phone">
+                      <li class="d-none d-lg-block d-md-none d-sm-none" id="phone">
                         <a class="nav-link" href="tel:410-602-5008">
                             <span class="nav-link-phone">410-602-5008</span>
                         </a><div>*We Deliver</div>
@@ -84,7 +84,7 @@
     </header>
 
     <!-- Button Interactive -->
-    <div class="d-none d-md-block d-sm-block d-" id="call-btn">
+    <div class="d-lg-none d-md-block d-sm-block" id="call-btn">
         <a href="tel:410-602-5008" class="btn">
             <span class=""><i class="bi bi-telephone-forward-fill"></i></span>
             410-602-5008
@@ -96,19 +96,19 @@
     </div>
     
     <!-- #Main Container -->
-    <div class="container container-fluid" id="main-content">
+    <div class="container" id="main-content">
 
         <div class="jumbotron">
-            <img src="/images/jumbotron_768.jpg" alt="picture of restaurant" class="img-responsive d-none d-md-none d-sm-block">
+            <img src="/images/jumbotron_768.jpg" alt="picture of restaurant" class="img-responsive d-md-none d-sm-block">
         </div>
 
         <!-- #Main Menu Cards -->
         <div class="row">
-            <div class="col-lg-4 col-md-4 col-sm-3">
+            <div class="col-lg-4 col-md-4 col-sm-2">
                 <a href="menu-category.html"><div id="menu-tile"><span>menu</span></div></a>
             </div>
 
-            <div class="col-lg-4 col-md-4 col-sm-3">
+            <div class="col-lg-4 col-md-4 col-sm-2">
                 <a href="single-category.html"><div id="specials-tile"><span>special</span></div></a>
             </div>
             
@@ -129,7 +129,7 @@
     <footer class="panel-footer">
         <div class="container">
             <div class="row">
-                <section class="col-sm-2" id="hours"> 
+                <section class="col-sm-4" id="hours"> 
                     <span>Hours:</span><br>
                     Sun-Thurs: 11:15am - 10:00pm<br>
                     Fri: 11:15am - 2:30pm<br>
