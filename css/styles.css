@@ -177,7 +177,7 @@
 
 /*------------------Pages-Menu-Category-------------------------------*/
 
-/* MENU CATEGORIES PAGE */
+/* Category Menu Pages */
 .category-tile { 
   position: relative;
   border: 2px solid #3F0C1F;
@@ -207,7 +207,7 @@
 
 /*--------------------Pages-Specials-Categorye------------------------------*/
 
-/* SINGLE CATEGORY PAGE */
+/* Single Category Pages */
 .menu-item-tile {
   margin-bottom: 25px;
 }
@@ -271,14 +271,14 @@ h3.menu-item-title {
     height: 100px;
     margin: 5px 5px 5px 0;
   }
-  /* End Header */
+  
 
   /* Home Page */
   .container .jumbotron {
     background: url('../images/jumbotron_992.jpg') no-repeat;
     height: 558px;
   }
-  /* End Home Page */
+  
 }
 
 
@@ -289,7 +289,7 @@ h3.menu-item-title {
     background: url('/images/jumbotron_768.jpg') no-repeat;
     height: 432px;
   }
-  /* End Home Page */
+  
 }
 
 /********** Extra small devices **********/
@@ -334,7 +334,7 @@ h3.menu-item-title {
     letter-spacing: .1em;
     text-transform: uppercase;
   }
-  /* End Header */
+
 
   /* Footer */
   .panel-footer section {
@@ -347,7 +347,7 @@ h3.menu-item-title {
   .panel-footer section hr {
     width: 50%;
   }
-  /* End Footer */
+  
 
   /* Home Page */
   .container .jumbotron {
@@ -377,7 +377,7 @@ h3.menu-item-title {
     padding-top: 5px;
     font-size: 6vw;
   }
-  /* End Header */
+  
   
   /* Home page */
   #menu-tile, #specials-tile {
