@@ -5,17 +5,14 @@
     --color-font-normal:rgb(23, 22, 22);
     --color-font-resalt:#ffff;
 }
-
 *{  
     box-sizing:border-box;
     font-size: 16px;
     font-family: 'Oxygen', sans-serif;
 }
-
 .body__container{
     background-color: var(--color-secundario);
 }
-
 /*Header Logo name */
 #header-nav{
     background-color: var(--color-principal);
@@ -99,9 +96,7 @@
     margin-top: -60px;
 }
 
-
 /* -------------------------- */
-
 
 /* Main - Container */
 .container .jumbotron {
@@ -171,7 +166,6 @@
 #testimonials p:nth-child(2){
   margin-top: 25px;
 }
-
 
 /*------------------Pages-Menu-Category-------------------------------*/
 
