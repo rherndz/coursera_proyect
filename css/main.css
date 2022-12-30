@@ -23,7 +23,7 @@
     width: 150px;
     height: 150px;
     margin: 10px 15px 10px 0;
-    background-image: url("./images/restaurant-logo_large.png");
+    background-image: url("/images/restaurant-logo_large.png");
     background-repeat: no-repeat;
 }
 
@@ -112,12 +112,12 @@
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 #menu-tile{
-  background: url('/images/menu-tile.jpg') no-repeat;
+  background: url("/images/menu-tile.jpg") no-repeat;
   background-position: center;
   background-color: #222;
 }
 #specials-tile{
-  background: url('/images/specials-tile.jpg') no-repeat;
+  background: url("/images/specials-tile.jpg") no-repeat;
   background-position: center;
 }
 #menu-tile span, #specials-tile span, #map-tile span {
