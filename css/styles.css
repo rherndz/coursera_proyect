@@ -23,7 +23,7 @@
     width: 150px;
     height: 150px;
     margin: 10px 15px 10px 0;
-    background-image: url(/images/restaurant-logo_large.png);
+    background-image: url("./images/restaurant-logo_large.png");
     background-repeat: no-repeat;
 }
 
@@ -113,12 +113,12 @@
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 #menu-tile{
-  background: url('/images/menu-tile.jpg') no-repeat;
+  background: url('./images/menu-tile.jpg') no-repeat;
   background-position: center;
   background-color: #222;
 }
 #specials-tile{
-  background: url('/images/specials-tile.jpg') no-repeat;
+  background: url('./images/specials-tile.jpg') no-repeat;
   background-position: center;
 }
 #menu-tile span, #specials-tile span, #map-tile span {
@@ -361,6 +361,7 @@ h3.menu-item-title {
 
   /* Home Page */
 
+
   /* Main Jumbotron */
   .container .jumbotron {
     background-size:auto;
@@ -374,8 +375,6 @@ h3.menu-item-title {
     height: auto;
   }
   
-
-
   #menu-tile, #specials-tile {
     width: 360px;
     margin: 0 auto 15px;
@@ -391,8 +390,6 @@ h3.menu-item-title {
     text-align: center;;
   }
 }
-
-
 
 /********** Super extra small devices **********/
 @media (max-width: 479px) {
