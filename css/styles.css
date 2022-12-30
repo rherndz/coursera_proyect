@@ -11,7 +11,7 @@
     font-family: 'Oxygen', sans-serif;
 }
 .body__container{
-    background-color: var(--color-secundario);
+  background-color: var(--color-secundario);
 }
 /*Header Logo name */
 #header-nav{
@@ -61,7 +61,6 @@
 #nav__list{
     margin-top: 10px;
 }
-
 .nav-link{
     color: #951C49;
     text-align: center;
@@ -69,7 +68,6 @@
 .nav-link:hover {
     background: #E7E7E7;
 }
-
 .nav-icon{
     font-size: 1.2em;
     font-weight: bolder;
@@ -244,13 +242,23 @@ h3.menu-item-title {
   font-style: italic;
 }
 
+
+
 /*------------------ Section Responsive -----------------------------*/
 
 /********** Large devices **********/
 @media (min-width: 1200px) {
   .container .jumbotron {
     background: url('/images/jumbotron_1200.jpg') no-repeat;
-    height: 675px;
+    background-size:cover;
+    width: 100%;
+    height: 700px;
+    margin: 15px 0 20px 0 ;
+  }
+
+  .body__container{
+    background-color: rgb(25, 184, 123);
+    /* background-color: var(--color-secundario); */
   }
 }
 
@@ -270,9 +278,13 @@ h3.menu-item-title {
     background: url('../images/jumbotron_992.jpg') no-repeat;
     height: 558px;
   }
+
+  .body__container{
+    background-color: rgb(161, 73, 73);
+    /* background-color: var(--color-secundario); */
+  }
   
 }
-
 
 /********** Small devices **********/
 @media (min-width: 768px) and (max-width: 991px) {
@@ -282,13 +294,17 @@ h3.menu-item-title {
     height: 432px;
   }
   
+  .body__container{
+    background-color: rgb(18, 149, 219);
+    /* background-color: var(--color-secundario); */
+  }
 }
 
 /********** Extra small devices **********/
 @media (max-width: 767px) {
   /* Header */
   .navbar-brand {
-    padding-top: 10px;
+    padding-top: 2px;
     height: 80px;
   }
   .navbar-brand h1 { /* Restaurant name */
@@ -314,18 +330,20 @@ h3.menu-item-title {
   #call-btn > a {
     font-size: 1.5em;
     display: block;
-    margin: 0 20px;
+    margin: 20px 20px;
     padding: 10px;
     border: 2px solid #fff;
     background-color: #f6b319;
     color: #951c49;
   }
   #xs-deliver {
+    color: white;
     margin-top: 5px;
     font-size: .7em;
     letter-spacing: .1em;
     text-transform: uppercase;
   }
+
 
 
   /* Footer */
@@ -342,10 +360,22 @@ h3.menu-item-title {
   
 
   /* Home Page */
+
+  /* Main Jumbotron */
   .container .jumbotron {
-    margin-top: 30px;
+    background-size:auto;
+    margin: 20px 0 20px 0;
     padding: 0;
+    background-color: #222;
   }
+  
+  .img-responsive{  
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+
   #menu-tile, #specials-tile {
     width: 360px;
     margin: 0 auto 15px;
@@ -361,6 +391,8 @@ h3.menu-item-title {
     text-align: center;;
   }
 }
+
+
 
 /********** Super extra small devices **********/
 @media (max-width: 479px) {
