@@ -316,8 +316,7 @@ h3.menu-item-title {
   }
 
   .body__container{
-    background-color: rgb(161, 73, 73);
-    /* background-color: var(--color-secundario); */
+    /*background-color: rgb(161, 73, 73);*/
   }
   
 }
@@ -344,8 +343,7 @@ h3.menu-item-title {
   }
   
   .body__container{
-    background-color: rgb(18, 149, 219);
-    /* background-color: var(--color-secundario); */
+    /*background-color: rgb(18, 149, 219);*/
   }
 
 
