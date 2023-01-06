@@ -64,6 +64,9 @@
 /* Header Navigation */
 #nav__list{
     margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 .nav-link{
     color: var(--color-secundario);
@@ -105,6 +108,7 @@
   box-shadow: 0 0 50px var(--color-box-shadow);
   border: 2px solid var(--color-box-shadow);
 }
+
 #menu-tile, #specials-tile, #map-tile {
   height: 250px;
   width: 100%;
@@ -213,7 +217,6 @@
 }
 
 
-
 /*---------------Pages-Specials-Categorye----------------*/
 
 /* Main Content / Title - Subtitle */
@@ -303,6 +306,23 @@ h3.menu-item-title {
     height: 100px;
     margin: 5px 5px 5px 0;
   }
+
+   /* Header */
+   .navbar-brand {
+    padding-top: 2px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Restaurant name */
+    padding-top: 10px;
+    font-size: 2.4vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand span { /* Kosher cert */
+    font-size: 16px;
+    margin-top: 12px;
+  }
+  .navbar-brand p img { /* Star-K */
+    height: 20px;
+  }
  
   /* Main Container / Jumbotron */
   .container .jumbotron {
@@ -325,7 +345,8 @@ h3.menu-item-title {
 @media (min-width: 768px) and (max-width: 991px) {
    /* Header navbar / logo */
    #logo-img {
-    background-image: url('../images/restaurant-logo_small.png') no-repeat;
+    background-image: url("/images/restaurant-logo_small.png");
+    background-size: 80%;
     width: 100px;
     height: 100px;
     margin: 2px 2px 2px 0;
@@ -374,7 +395,7 @@ h3.menu-item-title {
   }
   #collapsable-nav a span { /* Collapsed nav menu glyph */
     font-size: 1em;
-    margin-right: 5px;
+    margin-right: 5px;  
   }
 
   #call-btn > a {
