@@ -107,12 +107,10 @@
   box-shadow: 0 0 50px var(--color-box-shadow);
   border: 4px solid var(--color-box-shadow);
 }
-
 .img-responsive, .jumbotron{
   width: 100%;
   height: auto;
 }
-
 #menu-tile, #specials-tile, #map-tile {
   height: 240px;
   width: 100%;
@@ -322,15 +320,15 @@ h3.menu-item-title {
     padding-top: 2px;
     height: 80px;
   }
-  .navbar-brand h1 { /* Restaurant name */
+  .navbar-brand h1 { 
     padding-top: 10px;
-    font-size: 2.4vw; /* 1vw = 1% of viewport width */
+    font-size: 2.4vw; 
   }
-  .navbar-brand span { /* Kosher cert */
+  .navbar-brand span { 
     font-size: 16px;
     margin-top: 12px;
   }
-  .navbar-brand p img { /* Star-K */
+  .navbar-brand p img { 
     height: 20px;
   }
  
@@ -344,11 +342,6 @@ h3.menu-item-title {
     width: 100%;
     height: auto;
   }
-
-  .body__container{
-    /*background-color: rgb(161, 73, 73);*/
-  }
-  
 }
 
 /********** Small devices **********/
@@ -383,22 +376,22 @@ h3.menu-item-title {
     height: 80px;
   }
 
-  .navbar-brand h1 { /* Restaurant name */
+  .navbar-brand h1 { 
     padding-top: 10px;
     font-size: 4vw; 
   }
-  .navbar-brand span { /* Kosher cert */
+  .navbar-brand span { 
     font-size: .5em;
     margin-top: 12px;
   }
-  .navbar-brand p img { /* Star-K */
+  .navbar-brand p img { 
     height: 20px;
   }
 
-  #collapsable-nav a { /* Collapsed nav menu text */
+  #collapsable-nav a { 
     font-size: 1.2em;
   }
-  #collapsable-nav a span { /* Collapsed nav menu glyph */
+  #collapsable-nav a span { 
     font-size: 1em;
     margin-right: 5px;  
   }
@@ -455,7 +448,7 @@ h3.menu-item-title {
     text-align: center;
   }
   .panel-footer section:nth-child(3) {
-    margin-bottom: 0; /* margin already exists on the whole row */
+    margin-bottom: 0; 
   }
   .panel-footer section hr {
     width: 50%;
