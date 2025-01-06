@@ -4,6 +4,12 @@
 Este repositorio contiene los proyectos realizados como parte del curso HTML, CSS y JavaScript para Desarrolladores Web ofrecido en Coursera. Este curso forma parte del programa especializado "HTML, CSS y JavaScript para desarrolladores web" y proporciona una base sólida en el desarrollo de páginas web modernas.
 
 
+<img src="./portada1-min.png"></img>
+
+<img src="./portada2-min.png"></img>
+
+<img src="./portada3-min.png"></img>
+
 ## 🔶 Sobre el curso
 
 En este curso se adquieren habilidades relevantes para el desarrollo web mediante proyectos prácticos y se obtienen conocimientos sobre las herramientas básicas que todo programador de páginas web debe conocer.
